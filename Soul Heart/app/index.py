@@ -772,7 +772,8 @@ class Jogador:
         else:
             self.hitbox_ataque = None
 
-    
+#NÂO AGUENTO MAIS ESCREVERRRRR MINHA MÂO VAI CAIR ;(
+
     @property
     def parry_ativo(self):
         """True nos primeiros JANELA_PARRY segundos do golpe."""
@@ -3533,7 +3534,7 @@ jogador = Jogador(0, 0)
 salas = criar_salas()
 sala_atual = None
 
-
+#SOCORROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
 ORDEM_SALAS = {"sala1": 1, "sala2": 2, "sala3": 3, "sala4": 4, "sala4s": 4.5, "sala5": 5,
                "sala6": 6, "sala7": 7, "sala8": 8, "sala9": 9, "sala10": 10}
