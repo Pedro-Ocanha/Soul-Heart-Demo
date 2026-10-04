@@ -59,22 +59,6 @@ def hitstop(t):
 def tremer(t, mag=4):
     FX["tremor"] = max(FX["tremor"], t)
     FX["mag"] = max(mag, FX["mag"] if FX["tremor"] > 0 else 0)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 PASTA_ASSETS = os.path.join(os.path.dirname(os.path.abspath(__file__)) if "__file__" in globals()
                             else os.getcwd(), "assets")
 MOSTRAR_SPRITES_FALTANDO = True     
